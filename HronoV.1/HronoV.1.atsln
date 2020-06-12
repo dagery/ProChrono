@@ -7,6 +7,7 @@ Project("{54F91283-7BC4-4236-8FF9-10F437C3AD48}") = "HronoV.1", "HronoV.1\HronoV
 EndProject
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Solution Items", "Solution Items", "{FB8182C3-2D37-4AB1-B3AE-E65B2D750883}"
 	ProjectSection(SolutionItems) = preProject
+		E:\Git\cmd\git-gui.exe = E:\Git\cmd\git-gui.exe
 		state.h = state.h
 	EndProjectSection
 EndProject

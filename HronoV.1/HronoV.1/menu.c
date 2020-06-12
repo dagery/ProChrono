@@ -58,7 +58,8 @@ struct MenuElement menu[] = {
 		.onSelected = &onExit
 	}
 };
-struct MenuElement *currentMenuRoot;
+struct MenuElement *currentMenuActiveRoot;
+
 void empty(){}
 
 void FloatInput(struct MenuElement *mElement){

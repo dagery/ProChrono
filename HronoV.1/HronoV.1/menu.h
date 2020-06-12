@@ -24,7 +24,7 @@ extern struct MenuElement{
 
 };
 
-extern struct MenuElement *currentMenuRoot;
+extern struct MenuElement *currentMenuActiveRoot;
 extern struct MenuElement menu[];
 
 void onExit(struct MenuElement*);
