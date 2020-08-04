@@ -18,5 +18,5 @@
 *.map
 *.srec
 
-#User Specific Files
+#User Specific Files For AtmelStudio
 *.atsuo
