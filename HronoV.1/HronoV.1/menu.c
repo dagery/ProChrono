@@ -5,8 +5,8 @@
 #include <stdint.h>
 #include <avr/pgmspace.h>
 
-#define false 0
-#define true 1
+#define false (uint8_t)0
+#define true (uint8_t)1
 
 const char menuText_Mode[] PROGMEM = "Mode : %s";
 const char menuText_Language[] PROGMEM = "Language : %s";
@@ -66,8 +66,12 @@ void FloatInput(struct MenuElement *mElement){
 	
 }
 
+
+
+//Exit to previous menuElement
 void onExit(struct MenuElement *mElement){
-	*(mElement)->selected = false;
+	//*(mElement)->selected = 0;
+	mElement->selected = false;
 	menu[0].selected = true;
 	stateSet(STATE_MAIN_SCREEN_UPDATE);
 }

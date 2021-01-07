@@ -8,6 +8,7 @@
 #include "state.h"
 
 extern uint8_t STATE = STATE_IDLE; 
+extern uint8_t *ptrState = &STATE;
 
 uint8_t stateGet(void){
 	return STATE;

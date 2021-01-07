@@ -13,4 +13,6 @@
 uint8_t stateGet(void); //Get current device state 
 uint8_t stateSet(uint8_t); //Set device state
 
+uint8_t *ptrState; //Faster way to access current state variable 
+
 #endif

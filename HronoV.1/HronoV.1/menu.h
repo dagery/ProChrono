@@ -20,6 +20,9 @@ extern struct MenuElement{
 	uint8_t *var_selected;
 	uint8_t vars_count;
 	
+	struct MenuElement *nextMenuElement;
+	struct MenuElement *prevMenuElement;  
+	
 	void (*onSelected)(struct MenuElement *menuElement);
 
 };
